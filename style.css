@@ -4,4 +4,43 @@
 .col-4{ width: 33.33%;}
 .col-5{ width: 41.66%;}
 .col-6{ width: 50%;}
+.col-7{ width: 58.33%;}
+.col-8{ width: 66.66%;}
+.col-9{ width: 75%;}
+.col-10{ width: 83.33%;}
+.col-11{ width: 91.66%;}
+.col-12{ width: 100%;}
 
+[class*='col-'] {
+    float: left;
+    box-sizing: border-box;
+    border: 1px solid;
+}
+
+.row:after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+
+
+.header-top-height {
+    height: 30px;
+}
+.header-height {
+    height: 200px;
+}
+
+.menu-height{
+    height: 50px;
+}
+.content-height {
+    height: 600px;
+}
+.big-footer-height{
+    height: 300px;
+}
+.footer-height{
+    height: 30px;
+}
