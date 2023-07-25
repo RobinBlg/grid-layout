@@ -23,7 +23,11 @@
     display: block;
 }
 
-
+.wrapper{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
 
 .header-top-height {
     height: 30px;
